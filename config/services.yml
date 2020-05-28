@@ -1,0 +1,6 @@
+services:
+    _defaults:
+        autowire: true
+    dmzx.hideurlforguests.listener:
+        class: dmzx\hideurlforguests\event\listener
+        tags: [{ name: event.listener }]
